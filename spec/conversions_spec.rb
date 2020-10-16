@@ -4,7 +4,7 @@ describe "conversions" do
   describe '#ounces_to_grams' do
     it 'given zero, returns 3.4' do
       grams = ounces_to_grams(3.4)
-      expect(grams).to eq(3.4)
+      expect(grams).to eq(0)
     end
   end
 end
